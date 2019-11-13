@@ -1,0 +1,348 @@
+﻿(영어)
+<size=16>AnyPortrait Update Log v1.2.0</size>
+(Build October 28, 2019)
+
+<size=13>Improvements</size>
+
+- <color=blue>VR</color> is supported
+    The option to support VR is added in Bake dialog
+    The Material preset is added to support VR
+    Functions (SetRenderingCameras, FindRenderingCamerasAutomatically) are added in relation to VR
+    <color=red>(For more information, please visit our homepage)</color>
+
+- <color=blue>Target Texture property</color> of Cameras is supported
+    Clipped masks are rendered to a RenderTexture properly
+    "Keep Alpha" material preset for rendering to a Render Texture with translucent or transparent backgrounds
+    <color=red>(For more information, please visit our homepage)</color>
+
+- It is changed that Billboard option does not apply in Bake processing, only apply while the game is running
+
+
+
+<size=13>Fixed issues</size>
+
+- A bug where animation clips for Mecanim would not be saved properly if there is a white space in the save path is fixed.
+- A bug that Custom FFD does not work properly when the size is 2 is fixed
+- A bug that the bone is not be controlled right after it is detached is fixed
+- A bug that functions which control meshes in a batch such as SetMeshImageAll and SetMeshColorAll do not work properly is fixed (Please execute Bake to apply)
+
+
+
+-----------------------------------------
+(한국어)
+<size=16>AnyPortrait 업데이트 로그 v1.2.0</size>
+(2019년 10월 28일 빌드)
+
+<size=13>개선된 사항</size>
+
+- <color=blue>VR</color> 지원
+    Bake 설정 다이얼로그에 VR 지원 옵션 추가
+    VR을 지원하는 재질 프리셋이 추가
+    VR 지원과 관련하여 함수 추가 (SetRenderingCameras, FindRenderingCamerasAutomatically)
+    <color=red>(자세한 설명은 홈페이지를 확인하세요)</color>
+
+- 카메라의 <color=blue>Target Texture 속성</color> 지원
+    클리핑 마스크가 정상적으로 렌더링되도록 개선
+    반투명, 투명 배경의 Render Texture에 렌더링을 하는 경우를 위한 "Keep Alpha" 재질 프리셋 추가
+    <color=red>(자세한 설명은 홈페이지를 확인하세요)</color>
+    
+- Bake 실행 시에는 빌보드 옵션이 적용되지 않고, 게임 실행 중에만 적용되도록 변경
+
+
+
+<size=13>수정된 문제점</size>
+
+- 메카님을 위한 애니메이션 클립 저장 경로에 공백이 있을 경우 제대로 저장되지 않는 버그 수정
+- FFD의 크기를 임의로 수정할 때, 크기가 2인 경우 제대로 동작하지 않는 버그 수정
+- 본을 Detach한 직후, 해당 본을 제어할 수 없는 버그 수정
+- SetMeshImageAll, SetMeshColorAll과 같은 메시들을 일괄 제어하는 함수들이 정상적으로 동작하지 않는 버그 수정 (Bake를 1회 해야 적용됨)
+	
+
+
+-----------------------------------------
+(프랑스어)
+<size=16>Fichier de mise à jour AnyPortrait v1.2.0</size>
+(Construit le 28 octobre 2019)
+
+<size=13>Améliorations</size>
+
+- <color=blue>VR</color> est supporté
+    L'option de prise en charge de la réalité virtuelle est ajoutée dans la boîte de dialogue Cuire
+    Le préréglage Matériau est ajouté pour prendre en charge la réalité virtuelle
+    Des fonctions (SetRenderingCameras, FindRenderingCamerasAutomatically) sont ajoutées en relation avec VR
+    <color=red>(Pour plus d'informations, visitez notre page d'accueil.)</color>
+
+- La <color=blue>propriété de texture cible</color> de Caméras est prise en charge.
+    Les masques écrêtés sont correctement rendus dans une RenderTexture
+    "Keep Alpha" préréglé pour le rendu en texture de rendu avec des arrière-plans translucides ou transparents
+    <color=red>(Pour plus d'informations, visitez notre page d'accueil.)</color>
+
+- Il est modifié que l'option Billboard ne s'applique pas au traitement de cuisson au four, s'applique uniquement lorsque le jeu est en cours d'exécution.
+
+
+
+<size=13>Problème résolu</size>
+
+- Un bug où les clips d'animation pour Mecanim ne seraient pas sauvegardés correctement s'il y avait un espace blanc dans le chemin de sauvegarde est corrigé.
+- Un bug qui FFD personnalisé ne fonctionne pas correctement lorsque la taille est 2 est corrigé
+- Un bug qui dit que l'os n'est pas contrôlé juste après son détachement est corrigé
+- Un bogue qui ne fonctionne pas correctement pour contrôler les maillages d'un lot tels que SetMeshImageAll et SetMeshColorAll est corrigé (veuillez exécuter Bake pour l'appliquer).
+
+
+
+-----------------------------------------
+(독일어)
+<size=16>AnyPortrait-Aktualisierungsprotokoll v1.2.0</size>
+(Build 28. Oktober 2019)
+
+
+<size=13>Verbesserungen</size>
+
+- <color=blue>VR</color> wird unterstützt
+    Die Option zur Unterstützung von VR wurde im Dialogfeld "Backen" hinzugefügt
+    Die Materialvoreinstellung wird hinzugefügt, um VR zu unterstützen
+    Funktionen (SetRenderingCameras, FindRenderingCamerasAutomatically) werden in Bezug auf VR hinzugefügt
+    <color=red>(Weitere Informationen finden Sie auf unserer Homepage)</color>
+
+- <color=blue>Target Texture</color> von Kameras wird unterstützt
+    Ausgeschnittene Masken werden ordnungsgemäß in eine RenderTexture gerendert
+    Materialvoreinstellung "Keep Alpha" zum Rendern in eine Rendertextur mit durchscheinendem oder transparentem Hintergrund
+    <color=red>(Weitere Informationen finden Sie auf unserer Homepage)</color>
+
+- Es wurde geändert, dass die Billboard-Option bei der Backverarbeitung nicht angewendet wird, sondern nur, während das Spiel läuft
+
+
+
+<size=13>Problem behoben</size>
+
+- Es wurde ein Fehler behoben, durch den Animationsclips für Mecanim nicht ordnungsgemäß gespeichert wurden, wenn im Speicherpfad ein weißer Bereich vorhanden war.
+- Ein Fehler, dass Custom FFD nicht richtig funktioniert, wenn die Größe 2 ist, ist behoben
+- Ein Fehler, der dazu führte, dass der Knochen unmittelbar nach dem Ablösen nicht mehr kontrolliert werden konnte, wurde behoben
+- Ein Fehler, der dazu führt, dass Netze in einem Stapel wie SetMeshImageAll und SetMeshColorAll nicht ordnungsgemäß gesteuert werden, wurde behoben.
+
+
+
+-----------------------------------------
+(스페인어)
+<size=16>AnyPortrait Update Log v1.2.0</size>
+(Construir el 28 de octubre de 2019)
+
+
+<size=13>Mejoras</size>
+
+- <color=blue>VR</color> es compatible
+    La opción para admitir VR se agrega en el cuadro de diálogo Bake
+    El material preestablecido se agrega para admitir VR
+    Las funciones (SetRenderingCameras, FindRenderingCamerasAutomatically) se agregan en relación con VR
+    <color=red>(Para obtener más información, visite nuestra página de inicio)</color>
+
+- Se admite la propiedad <color=blue>de Textura de Destino</color> de las cámaras
+    Las máscaras recortadas se procesan en RenderTexture correctamente
+    Material "Keep Alpha" preestablecido para renderizar a una textura de renderizado con fondos translúcidos o transparentes
+    <color=red>(Para obtener más información, visite nuestra página de inicio)</color>
+
+- Se modificó que la opción Billboard no se aplica en el procesamiento de hornear, solo se aplica mientras el juego se está ejecutando
+
+
+
+<size=13>Problema solucionado</size>
+
+- Se corrigió un error en el que los clips de animación para Mecanim no se guardarían correctamente si había un espacio en blanco en la ruta de guardado.
+- Se corrigió un error por el cual FFD personalizado no funciona correctamente cuando el tamaño es 2
+- Se corrigió un error que indica que el hueso no se controla inmediatamente después de que se separa
+- Se solucionó un error que funciona y que controla mallas en un lote como SetMeshImageAll y SetMeshColorAll no funciona correctamente (ejecute Bake para aplicar)
+
+
+
+-----------------------------------------
+(이탈리아어)
+<size=16>Registro aggiornamenti AnyPortrait v1.2.0</size>
+(Build 28 ottobre 2019)
+
+
+<size=13>Miglioramenti</size>
+
+- <color=blue>VR</color> is supported
+    L'opzione per supportare la VR viene aggiunta nella finestra di dialogo Cuocia
+    Il preset materiale viene aggiunto per supportare la realtà virtuale
+    Le funzioni (SetRenderingCameras, FindRenderingCamerasAutomatically) vengono aggiunte in relazione alla VR
+    <color=red>(Per maggiori informazioni, visita la nostra homepage)</color>
+
+- È supportata la proprietà <color=blue>Target Texture</color> delle telecamere
+    Le maschere ritagliate vengono renderizzate correttamente in RenderTexture
+    Preselezione materiale "Keep Alpha" per il rendering in una trama di rendering con sfondi traslucidi o trasparenti
+    <color=red>(Per maggiori informazioni, visita la nostra homepage)</color>
+
+- È stato modificato il fatto che l'opzione Billboard non si applica all'elaborazione Bake, si applica solo mentre il gioco è in esecuzione
+
+
+
+<size=13>Risolto il problema</size>
+
+- È stato corretto un bug in cui i clip di animazione per Mecanim non venivano salvati correttamente se è stato riparato uno spazio bianco nel percorso di salvataggio.
+- È stato corretto un bug per cui FFD personalizzato non funziona correttamente quando la dimensione è 2
+- È stato corretto un bug per cui l'osso non veniva controllato subito dopo che è stato staccato
+- È stato corretto un bug che funziona che controlla le mesh in un batch come SetMeshImageAll e SetMeshColorAll che non funzionano correttamente (eseguire Bake per applicare)
+
+
+
+-----------------------------------------
+(덴마크어)
+<size=16>AnyPortrait Update Log v1.2.0</size>
+(Byg den 28. oktober 2019)
+
+
+<size=13>Forbedringer</size>
+
+- <color=blue>VR</color> understøttes
+    Indstillingen til at understøtte VR tilføjes i Bake-dialog
+    Den forudindstillede materiale tilføjes til understøttelse af VR
+    Funktioner (SetRenderingCameras, FindRenderingCamerasAutomatically) tilføjes i forhold til VR
+    <color=red>(For mere information, se venligst vores hjemmeside)</color>
+
+- <color=blue>Egenskaber for måltekstur</color> på kameraer understøttes
+    Klippede masker gengives korrekt til en RenderTexture
+    "Keep Alpha" -materiale forudindstillet til gengivelse til en gengivelse af struktur med gennemsigtig eller gennemsigtig baggrund
+    <color=red>(For mere information, se venligst vores hjemmeside)</color>
+
+- Det ændres, at Billboard-indstillingen ikke gælder i Bake-behandling, kun gælder, mens spillet kører
+
+
+
+<size=13>Faste problem</size>
+
+- En fejl, hvor animationsklip til Mecanim ikke gemmes korrekt, hvis der er et hvidt rum i gemte stien, er rettet.
+- En fejl, som brugerdefineret FFD ikke fungerer korrekt, når størrelsen er 2, er rettet
+- En fejl, hvor knoglen ikke kontrolleres lige efter den er løsnet, er løst
+- En bug, der fungerer, der styrer meshes i en batch som SetMeshImageAll og SetMeshColorAll ikke fungerer korrekt, er rettet (udfør Bake for at anvende)
+
+
+
+-----------------------------------------
+(일본어)
+<size=16> AnyPortrait更新ログv1.2.0</size>
+（2019年10月28日ビルド）
+
+<size=13>改善点</size>
+
+- <color=blue>VR</color>サポート
+    Bake設定ダイアログにVRサポートオプションを追加
+    VRをサポートする材料のプリセットが追加
+    VRサポートに関連して、関数を追加（SetRenderingCameras、FindRenderingCamerasAutomatically）
+    <color=red>（詳細はホームページを確認してください）</color>
+
+- カメラの<color=blue>「Target Texture」属性</color>サポート
+    クリッピングマスクが正常に描画されるよう改善
+    半透明、透明な背景のRender Textureにレンダリングをする場合のための「Keep Alpha」材質プリセットを追加
+    <color=red>（詳細はホームページを確認してください）</color>
+
+- Bake実行時には、ビルボードのオプションが適用されず、ゲームの実行中にのみ適用されるように変更
+
+
+
+<size=13>修正された問題</size>
+
+- メカ様のためのアニメーションクリップを保存パスにスペースがある場合、正しく保存されないバグを修正
+- FFDのサイズを任意に変更するとき、大きさが2である場合、正常に動作しないバグを修正
+- 本をDetachた直後に、その本を制御することができないバグを修正
+- 「SetMeshImageAll、SetMeshColorAll」 のようなメッシュを一括制御する機能が正常に動作しないバグを修正 （Bakeを1回する必要が適用される）
+
+
+
+-----------------------------------------
+(중국어-번체)
+<size=16>AnyPortrait更新日誌v1.2.0</size>
+（建立2019年10月28日）
+
+
+<size=13>改進</size>
+
+- 支持<color=blue>VR</color>
+    在“烘烤”對話框中添加了支持VR的選項
+    添加了Material預設以支持VR
+    與VR相關的功能（SetRenderingCameras，FindRenderingCamerasAutomatic）被添加
+    <color=red>（有關更多信息，請訪問我們的主頁）</color>
+
+- 支持Cameras的<color=blue>Target Texture屬性</color>
+    裁剪的遮罩將正確渲染到RenderTexture
+    預設“保持Alpha”材質以渲染為具有半透明或透明背景的渲染紋理
+    <color=red>（有關更多信息，請訪問我們的主頁）</color>
+
+- 更改了“公告牌”選項不適用於“烘焙”處理，僅在遊戲運行時適用
+
+
+
+<size=13>修復了問題</size>
+
+- 修復瞭如果保存路徑中存在空白，則無法正確保存Mecanim動畫剪輯的錯誤。
+- 修復了當大小為2時自定義FFD無法正常工作的錯誤
+- 修復了骨骼分離後無法立即控制骨骼的錯誤
+- 修復了控制批處理網格的功能（例如SetMeshImageAll和SetMeshColorAll）無法正常工作的錯誤（請執行烘烤以應用）
+
+
+
+-----------------------------------------
+(중국어-간체)
+<size=16>AnyPortrait更新日志v1.2.0</size>
+（建立2019年10月28日）
+
+
+<size=13>改进</size>
+
+- 支持<color=blue>VR</color>
+    在“烘烤”对话框中添加了支持VR的选项
+    添加了Material预设以支持VR
+    与VR相关的功能（SetRenderingCameras，FindRenderingCamerasAutomatic）被添加
+    <color=red>（有关更多信息，请访问我们的主页）</color>
+
+- 支持Cameras的<color=blue>Target Texture属性</color>
+    裁剪的遮罩将正确渲染到RenderTexture
+    预设“保持Alpha”材质以渲染为具有半透明或透明背景的渲染纹理
+    <color=red>（有关更多信息，请访问我们的主页）</color>
+
+- 更改了“公告牌”选项不适用于“烘焙”处理，仅在游戏运行时适用
+
+
+
+<size=13>修复了问题</size>
+
+- 修复了如果保存路径中存在空白，则无法正确保存Mecanim动画剪辑的错误。
+- 修复了当大小为2时自定义FFD无法正常工作的错误
+- 修复了骨骼分离后无法立即控制骨骼的错误
+- 修复了控制批处理网格的功能（例如SetMeshImageAll和SetMeshColorAll）无法正常工作的错误（请执行烘烤以应用）
+
+
+
+-----------------------------------------
+(폴란드어)
+<size=16>Dziennik aktualizacji AnyPortret v1.2.0</size>
+(Zbuduj 28 października 2019 r.)
+
+
+<size=13>Ulepszenia</size>
+
+- Obsługiwana jest opcja <color=blue>VR</color>
+    Opcja obsługi VR została dodana w oknie dialogowym Piec
+    Ustawienie wstępne materiału zostało dodane w celu obsługi VR
+    Funkcje (SetRenderingCameras, FindRenderingCamerasAutomatically) są dodawane w odniesieniu do VR
+    <color=red> (Aby uzyskać więcej informacji, odwiedź naszą stronę główną)</color>
+
+- Obsługiwana jest <color=blue>Właściwość docelowej tekstury</color> kamer
+    Obcięte maski są renderowane poprawnie do RenderTexture
+    Wstępnie ustawiony materiał „Zachowaj alfa” do renderowania do tekstury renderowania z półprzezroczystym lub przezroczystym tłem
+    <color=red> (Aby uzyskać więcej informacji, odwiedź naszą stronę główną) </color>
+
+- Zmieniono, że opcja Billboard nie ma zastosowania w przetwarzaniu Bake, ma zastosowanie tylko podczas gry
+
+
+
+<size=13>Naprawiono problem</size>
+
+- Naprawiono błąd polegający na tym, że klipy animacji dla Mecanim nie były poprawnie zapisywane, jeśli na ścieżce zapisu znajduje się biała przestrzeń.
+- Naprawiono błąd polegający na tym, że niestandardowy FFD nie działa poprawnie, gdy rozmiar wynosi 2
+- Naprawiono błąd polegający na tym, że kość nie jest kontrolowana zaraz po jej odłączeniu
+- Błąd, który działa, który kontroluje siatki w partii, takiej jak SetMeshImageAll i SetMeshColorAll, nie działa poprawnie (został naprawiony Bake, aby zastosować)
+
+
+
+-----------------------------------------
